@@ -1,0 +1,4 @@
+﻿  Graph Viewer.cpp
+C:\Users\Reaper0ff\Downloads\Graph Viewer\Graph Viewer\Graph Viewer.cpp(75,62): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Reaper0ff\Downloads\Graph Viewer\Graph Viewer\Graph Viewer.cpp(63,12): warning C4101: yl: неиспользованная локальная переменная
+  Graph Viewer.vcxproj -> C:\Users\Reaper0ff\Downloads\Graph Viewer\x64\Debug\Graph Viewer.exe
