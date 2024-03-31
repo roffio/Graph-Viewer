@@ -59,24 +59,29 @@ void DrawNums(HDC hdc, HWND hWnd) {
 void DrawFuncs(HDC hdc, HWND hWnd) {
     RECT windowRect;
     HPEN pen_ = CreatePen(PS_SOLID, 2, RGB(255, 50, 50));
+    HBRUSH brush = CreateSolidBrush(RGB(255, 200, 200));
     WeirdFunc lf;
     int y, yl;
     int percision = 0;
 
     GetClientRect(hWnd, &windowRect);
     SelectObject(hdc, pen_);
+    SelectObject(hdc, brush);
     double scaleY = 1.38;
 
 
     MoveToEx(hdc, 0, windowRect.bottom / 2, nullptr);
     int incr = min(windowRect.right / 20, windowRect.bottom / 10);
-    
-    for (int x = 0; x < windowRect.right; x+=1) {
+   
+
+    for (int x = 0; x < windowRect.right; x+=1+percision) {
         y = lf.getY((double)x / (double)incr) * (double)incr + windowRect.bottom / 2;
         if (y < -10000 || y > 10000) { break; }
         LineTo(hdc, x, y);
+        //SetPixel(hdc, x, y, RGB(255, 0, 0));
+
+        //Ellipse(hdc, x-10, y-10, x+10, y+10);
     }
-    SelectObject(hdc, pen_);
   
 }
 
