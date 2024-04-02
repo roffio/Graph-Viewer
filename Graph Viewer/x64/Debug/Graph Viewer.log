@@ -1,4 +1,2 @@
-﻿  Graph Viewer.cpp
-C:\Users\Reaper0ff\Downloads\Graph Viewer\Graph Viewer\Graph Viewer.cpp(78,62): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\Reaper0ff\Downloads\Graph Viewer\Graph Viewer\Graph Viewer.cpp(64,12): warning C4101: yl: неиспользованная локальная переменная
-  Graph Viewer.vcxproj -> C:\Users\Reaper0ff\Downloads\Graph Viewer\x64\Debug\Graph Viewer.exe
+﻿S:\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Graph Viewer.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Graph Viewer.vcxproj -> C:\Users\Reaper0ff\Downloads\Graph Viewer\x64\Debug\FunctionBuilder.exe

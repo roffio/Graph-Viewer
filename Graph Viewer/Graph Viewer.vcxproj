@@ -24,6 +24,7 @@
     <ProjectGuid>{d59c41b6-8a5b-41c2-923a-0953a8fa5a84}</ProjectGuid>
     <RootNamespace>GraphViewer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>FunctionBuilder</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,12 +129,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="Graph Viewer.h" />
+    <ClInclude Include="FunctionBuilder.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Graph Viewer.cpp" />
+    <ClCompile Include="FunctionBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Graph Viewer.rc" />
